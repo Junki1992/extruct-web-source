@@ -3,9 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 import os
-import re
 from urllib.parse import urljoin
-import sys
 
 def download_external_resource(base_url, url):
     """
